@@ -1,1 +1,27 @@
+@media (max-width:768px){
 
+.navbar{
+    flex-direction:column;
+    gap:15px;
+    padding:18px 5%;
+}
+
+.nav-links{
+    gap:18px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.hero h1{
+    font-size:40px;
+}
+
+.hero p{
+    font-size:16px;
+}
+
+.btn{
+    padding:12px 28px;
+}
+
+}
