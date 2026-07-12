@@ -84,3 +84,55 @@
     background:#4f46e5;
     color:#fff;
 }
+/* Featured Article */
+
+.featured-article{
+    padding:80px 20px;
+}
+
+.featured-content{
+    max-width:900px;
+    margin:auto;
+    background:linear-gradient(135deg,#4f46e5,#6366f1);
+    color:#fff;
+    padding:50px;
+    border-radius:24px;
+    box-shadow:0 15px 35px rgba(79,70,229,.25);
+}
+
+.badge{
+    display:inline-block;
+    background:#10b981;
+    color:#fff;
+    padding:8px 16px;
+    border-radius:30px;
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+.featured-content h2{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.featured-content p{
+    line-height:1.8;
+    margin-bottom:25px;
+    font-size:18px;
+}
+
+.meta{
+    display:flex;
+    gap:25px;
+    margin-bottom:30px;
+    flex-wrap:wrap;
+}
+
+.featured-content .btn{
+    background:#fff;
+    color:#4f46e5;
+}
+
+.featured-content .btn:hover{
+    background:#f3f4f6;
+}
