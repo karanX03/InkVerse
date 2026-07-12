@@ -1,1 +1,52 @@
+/* Search Section */
 
+.search-section{
+    text-align:center;
+    padding:70px 20px;
+}
+
+.search-section h1{
+    font-size:42px;
+    color:#111827;
+    margin-bottom:12px;
+}
+
+.search-section p{
+    color:#6b7280;
+    margin-bottom:30px;
+}
+
+.search-box{
+    max-width:650px;
+    margin:auto;
+    display:flex;
+    gap:12px;
+}
+
+.search-box input{
+    flex:1;
+    padding:15px 18px;
+    border:2px solid #e5e7eb;
+    border-radius:12px;
+    font-size:16px;
+    outline:none;
+}
+
+.search-box input:focus{
+    border-color:#4f46e5;
+}
+
+.search-box button{
+    padding:15px 30px;
+    border:none;
+    border-radius:12px;
+    background:#4f46e5;
+    color:#fff;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.search-box button:hover{
+    background:#3730a3;
+}
